@@ -12,7 +12,7 @@ body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
 }
-header.conteiner{
+header .conteiner{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,8 +31,9 @@ header{
 
 header nav a{
     text-decoration: none;
-    color:#AAA;
+    color:rgb(255, 255, 255);
     margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header nav a:hover{
     color: #fff;
@@ -81,4 +82,16 @@ header nav a:hover{
 }
 .botao i{
     margin-right: 15px;
+}
+.conteiner{
+    margin-left: 20px;
+}
+box-film{
+    height: 100%;
+    width: 100%;
+    display: block;
+    transition: .3s ease all;
+}
+.carroussel{
+    margin-top: 10px;
 }
